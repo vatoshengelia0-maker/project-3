@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Nunito", sans-serif;
+    margin: 100px;
+}
+
+/* Changelog */
+.CHL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 30px;
+
+}
+
+/* H1 da H4 */
+.H1 {
+    width: 100%;
+    text-align: center;
+    height:fit-content;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.H4 {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+    height:fit-content;
+    color: rgba(55, 55, 55, 0.686);
+    font-weight: bold;
+}
+
+/* shua sivrce */
+.UL {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.RDot {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.LDot {
+    text-align: end;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgba(55, 55, 55, 0.686);
+    font-weight: bold;
+}
+
+.Black {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 15px;
+    height: 100%;
+}
+
+.BlackDot {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 0;
+    border: 9px solid black;
+    border-radius: 100px;
+}
+
+.BlackLine {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: translate(25.9px, 0px);
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 100px;
+
+}
+
+
+/* gilaki */
+.Button {
+    height:max-content;
+    width: max-content;
+    font-size: x-large;
+    margin: 30px;
+    padding: 8px;
+    color:azure;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
